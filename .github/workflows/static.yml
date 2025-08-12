@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linktree Saya</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 500px;
+            margin: 50px auto;
+            padding: 20px;
+        }
+
+        .profile-img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid #333;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            margin-bottom: 10px;
+        }
+
+        .link-button {
+            display: block;
+            background-color: #333;
+            color: #fff;
+            padding: 14px;
+            margin: 10px 0;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: background 0.3s;
+        }
+
+        .link-button:hover {
+            background-color: #555;
+        }
+
+        footer {
+            margin-top: 30px;
+            font-size: 14px;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="https://via.placeholder.com/120" alt="Foto Profil" class="profile-img">
+        <h1>Nama Kamu</h1>
+        <p>Deskripsi singkat atau bio kamu di sini</p>
+
+        <a href="https://instagram.com/" target="_blank" class="link-button">Instagram</a>
+        <a href="https://wa.me/1234567890" target="_blank" class="link-button">WhatsApp</a>
+        <a href="https://youtube.com/" target="_blank" class="link-button">YouTube</a>
+        <a href="https://linkedin.com/" target="_blank" class="link-button">LinkedIn</a>
+        <a href="https://tiktok.com/" target="_blank" class="link-button">TikTok</a>
+
+        <footer>&copy; 2025 Nama Kamu</footer>
+    </div>
+</body>
+</html>
